@@ -24,5 +24,15 @@ public class LinkedList <G> {
         System.out.println();
     }
 
-   
+    public void append(G data) {
+        Node<G> newNode = new Node<>(data);
+        if (head == null) {
+            head = newNode;
+            tail = newNode;
+        }  else{
+            tail.next = newNode;
+            tail = newNode;
+        }
+    }
+
 }
