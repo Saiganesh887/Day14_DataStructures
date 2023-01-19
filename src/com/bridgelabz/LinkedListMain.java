@@ -11,6 +11,7 @@ public class LinkedListMain {
 
         System.out.println("After pop");
         linkedList1.pop();
+
         linkedList1.display();
 
 
