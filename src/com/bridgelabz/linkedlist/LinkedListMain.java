@@ -1,4 +1,6 @@
-package com.bridgelabz;
+package com.bridgelabz.linkedlist;
+
+import com.bridgelabz.linkedlist.LinkedList;
 
 public class LinkedListMain {
     public static void main(String[] args) {
