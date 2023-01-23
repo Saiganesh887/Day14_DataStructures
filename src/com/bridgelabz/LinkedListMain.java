@@ -20,11 +20,18 @@ public class LinkedListMain {
         linkedList1.pop();
         linkedList1.display();
 
+        //uc7
+        linkedList2.search(30);
+
         //uc6
         linkedList2.popLast();
         linkedList2.display();
 
-        //uc7
-        linkedList2.search(30);
+        linkedList2.append(70);
+        linkedList2.display();
+
+        //uc8
+        linkedList2.insertDataAfter(30,40);
+        linkedList2.display();
     }
 }
